@@ -1,0 +1,23 @@
+{
+  "name": "kafka-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "kafka-node": "5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "14.0.27",
+    "ts-node": "8.10.2",
+    "ts-node-dev": "1.0.0-pre.56",
+    "typescript": "3.9.7"
+  },
+  "scripts": {
+    "producer": "ts-node ./src/producer.ts",
+    "consumer": "ts-node ./src/consumer.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true
+}
